@@ -1,0 +1,36 @@
+{
+  "name": "makemake",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "Jonnathan Soares",
+    "email": "jonnsl@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jonnsl/browserify-makemake/issues"
+  },
+  "homepage": "https://github.com/jonnsl/browserify-makemake#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonnsl/browserify-makemake.git"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-plugin",
+    "makefile",
+    "make"
+  ],
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "peerDependencies": {
+    "browserify": "^13.1.0"
+  },
+  "devDependencies": {
+    "tap": "^8.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "tap test/*.js"
+  }
+}
