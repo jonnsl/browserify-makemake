@@ -5,7 +5,7 @@ var stream = require('stream').Stream;
 var assert = require('assert');
 var through = require('through2');
 
-var cwd = process.cwd() + "/";
+var cwd = process.cwd() + path.sep;
 var sep = ' \\\n ';
 
 module.exports = function (b, opts) {
