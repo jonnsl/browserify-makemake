@@ -27,6 +27,7 @@
     "browserify": "^13.1.0"
   },
   "devDependencies": {
+    "concat-stream": "^1.5.2",
     "tap": "^8.0.0"
   },
   "license": "MIT",
